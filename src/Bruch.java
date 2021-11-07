@@ -3,7 +3,9 @@ public class Bruch {
     private int denominator; // Nenner
 
     public Bruch(int numerator, int denominator) {
-        // TODO: Setzen Sie die Attribute entsprechend
+        this.numerator = numerator;
+        this.denominator = denominator;
+        // Attribute gesetzt
     }
 
     public int getNumerator() {
